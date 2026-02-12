@@ -1,0 +1,356 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		003712FF990B3DA02744A32D /* TranslationLanguage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 892133DF8F054B225EAD834F /* TranslationLanguage.swift */; };
+		23553DB0632829D83D8A8208 /* TextSectionCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46E30710E11C0ABD517D27F9 /* TextSectionCard.swift */; };
+		584DDC2607AABE1161128EED /* OCRService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 410E1D167A694E98B6623B87 /* OCRService.swift */; };
+		7DD93070AC8CD2CB3F5974DB /* SpeechRecognitionService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50CAB0BE41764630ABE00486 /* SpeechRecognitionService.swift */; };
+		9EAD8C5F0C113A3C64CA637C /* AppError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DDB2E3D914FBCA412850709 /* AppError.swift */; };
+		AD408F178F66A4188717EA71 /* OCRSelectableImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9082B2A8450CC420F1C60ED7 /* OCRSelectableImageView.swift */; };
+		C9C855A9659F87CACAB8261E /* TranslationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8244CA895EE1F2B3AEE059B5 /* TranslationService.swift */; };
+		D63C22D6EE5778E59FAC5016 /* RunBuddyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80CFB80280778FE908764774 /* RunBuddyApp.swift */; };
+		D8B7C0C51C3F1463074176A0 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = D64F89508F6F17D5A7BDB4FC /* ImagePicker.swift */; };
+		E967DC9DE76BB613C00790A9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B919427E3587C75263B646D2 /* ContentView.swift */; };
+		F1380943B3F6CEC2EB55C75E /* RunBuddyViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C268CE0066CB3F4F81292AA0 /* RunBuddyViewModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		02F8D8CE0537B14750DB1B13 /* RunBuddy.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = RunBuddy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0DDB2E3D914FBCA412850709 /* AppError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppError.swift; sourceTree = "<group>"; };
+		410E1D167A694E98B6623B87 /* OCRService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OCRService.swift; sourceTree = "<group>"; };
+		46E30710E11C0ABD517D27F9 /* TextSectionCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextSectionCard.swift; sourceTree = "<group>"; };
+		50CAB0BE41764630ABE00486 /* SpeechRecognitionService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeechRecognitionService.swift; sourceTree = "<group>"; };
+		80CFB80280778FE908764774 /* RunBuddyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RunBuddyApp.swift; sourceTree = "<group>"; };
+		8244CA895EE1F2B3AEE059B5 /* TranslationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TranslationService.swift; sourceTree = "<group>"; };
+		82BAD130C2F8A97ED28B0C06 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		892133DF8F054B225EAD834F /* TranslationLanguage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TranslationLanguage.swift; sourceTree = "<group>"; };
+		9082B2A8450CC420F1C60ED7 /* OCRSelectableImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OCRSelectableImageView.swift; sourceTree = "<group>"; };
+		B919427E3587C75263B646D2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C268CE0066CB3F4F81292AA0 /* RunBuddyViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RunBuddyViewModel.swift; sourceTree = "<group>"; };
+		D64F89508F6F17D5A7BDB4FC /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		01DB4CA576B33A3AA2ECD48C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				0DDB2E3D914FBCA412850709 /* AppError.swift */,
+				892133DF8F054B225EAD834F /* TranslationLanguage.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		294EE192E8116A4A6CF08E8A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				02F8D8CE0537B14750DB1B13 /* RunBuddy.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3297D231C649DEEF255A1429 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				410E1D167A694E98B6623B87 /* OCRService.swift */,
+				50CAB0BE41764630ABE00486 /* SpeechRecognitionService.swift */,
+				8244CA895EE1F2B3AEE059B5 /* TranslationService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		3E966729AEFB466D0987BA6F /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				C268CE0066CB3F4F81292AA0 /* RunBuddyViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		658D60B3C1122E2146175511 = {
+			isa = PBXGroup;
+			children = (
+				F357093DE8F8343FD6748717 /* RunBuddy */,
+				294EE192E8116A4A6CF08E8A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CB0BE963223617C8CE621353 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D64F89508F6F17D5A7BDB4FC /* ImagePicker.swift */,
+				9082B2A8450CC420F1C60ED7 /* OCRSelectableImageView.swift */,
+				46E30710E11C0ABD517D27F9 /* TextSectionCard.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F357093DE8F8343FD6748717 /* RunBuddy */ = {
+			isa = PBXGroup;
+			children = (
+				B919427E3587C75263B646D2 /* ContentView.swift */,
+				82BAD130C2F8A97ED28B0C06 /* Info.plist */,
+				80CFB80280778FE908764774 /* RunBuddyApp.swift */,
+				01DB4CA576B33A3AA2ECD48C /* Models */,
+				3297D231C649DEEF255A1429 /* Services */,
+				3E966729AEFB466D0987BA6F /* ViewModels */,
+				CB0BE963223617C8CE621353 /* Views */,
+			);
+			path = RunBuddy;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D6DB76CCB39F1DABFA0893D0 /* RunBuddy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1924AE8F29401489CCA49F04 /* Build configuration list for PBXNativeTarget "RunBuddy" */;
+			buildPhases = (
+				D48688FB9BE586B1AAE421E2 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RunBuddy;
+			packageProductDependencies = (
+			);
+			productName = RunBuddy;
+			productReference = 02F8D8CE0537B14750DB1B13 /* RunBuddy.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1BE5DC4FDF0C153DE270EB08 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+			};
+			buildConfigurationList = C414EBDAF6D72267AF0C6266 /* Build configuration list for PBXProject "RunBuddy" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 658D60B3C1122E2146175511;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D6DB76CCB39F1DABFA0893D0 /* RunBuddy */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D48688FB9BE586B1AAE421E2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9EAD8C5F0C113A3C64CA637C /* AppError.swift in Sources */,
+				E967DC9DE76BB613C00790A9 /* ContentView.swift in Sources */,
+				D8B7C0C51C3F1463074176A0 /* ImagePicker.swift in Sources */,
+				AD408F178F66A4188717EA71 /* OCRSelectableImageView.swift in Sources */,
+				584DDC2607AABE1161128EED /* OCRService.swift in Sources */,
+				D63C22D6EE5778E59FAC5016 /* RunBuddyApp.swift in Sources */,
+				F1380943B3F6CEC2EB55C75E /* RunBuddyViewModel.swift in Sources */,
+				7DD93070AC8CD2CB3F5974DB /* SpeechRecognitionService.swift in Sources */,
+				23553DB0632829D83D8A8208 /* TextSectionCard.swift in Sources */,
+				003712FF990B3DA02744A32D /* TranslationLanguage.swift in Sources */,
+				C9C855A9659F87CACAB8261E /* TranslationService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		3A0581219475D585C070B318 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = RunBuddy/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.RunBuddy;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		454227F8FAF6FFE48A8E48C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = RunBuddy/Info.plist;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = RunBuddy;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		6F294D566D31CAE2A093935A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = RunBuddy/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.RunBuddy;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EEB9B914146C99E39A87E2AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = RunBuddy/Info.plist;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = RunBuddy;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1924AE8F29401489CCA49F04 /* Build configuration list for PBXNativeTarget "RunBuddy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F294D566D31CAE2A093935A /* Debug */,
+				3A0581219475D585C070B318 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		C414EBDAF6D72267AF0C6266 /* Build configuration list for PBXProject "RunBuddy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				454227F8FAF6FFE48A8E48C9 /* Debug */,
+				EEB9B914146C99E39A87E2AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1BE5DC4FDF0C153DE270EB08 /* Project object */;
+}
